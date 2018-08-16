@@ -1,0 +1,28 @@
+{
+    "name": "bearns/support",
+    "description": "support",
+    "keywords": [
+        "support",
+        "string",
+        "array",
+        "helper"
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bearns",
+            "email": "user.bearns@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bearns\\Support\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
